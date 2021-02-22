@@ -11,6 +11,7 @@ Python3 Support!
 You have to edit defconf to fit your needs
 
 defconf = "/path/to/.zbx.conf"
+
 default: defconf = "/home/user/.zbx.conf"
 
 ### API tools:
