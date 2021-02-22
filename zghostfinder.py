@@ -27,7 +27,7 @@ def ConfigSectionMap(section):
 
 
 # set default vars
-defconf = "/home/4igadmin/.zbx.conf"
+defconf = "/home/user/.zbx.conf"
 username = ""
 password = ""
 api = ""
