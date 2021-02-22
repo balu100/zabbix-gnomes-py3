@@ -8,11 +8,10 @@ All of these tools can be invoked with `-h/--help` to get help.
 ### Python3:
 
 Python3 Support!
-You have to edit defconf
+You have to edit defconf to fit your needs
 
 defconf = "/path/to/.zbx.conf"
-
-Usually: defconf = "/home/user/.zbx.conf"
+default: defconf = "/home/user/.zbx.conf"
 
 ### API tools:
 - `zapi.py` -		Interactive Zabbix API client.
