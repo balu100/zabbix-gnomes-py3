@@ -2,7 +2,7 @@
 #
 # import needed modules.
 # pyzabbix is needed, see https://github.com/lukecyca/pyzabbix
-# python3 by Baluzs
+# python3 support by Baluzs
 import argparse
 import configparser
 import os
