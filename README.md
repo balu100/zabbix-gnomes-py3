@@ -1,6 +1,10 @@
 zabbix-gnomes
 =============
 
+A collection of various scripts to automate tasks with the Zabbix API. My main goal is to create a set of simple utilities that can be reused in shell scripts without using a lot of curl voodoo.
+
+All of these tools can be invoked with `-h/--help` to get help.
+
 ### Python3:
 
 Python3 Support!
@@ -9,10 +13,6 @@ You have to edit defconf
 defconf = "/path/to/.zbx.conf"
 
 Usually: defconf = "/home/user/.zbx.conf"
-
-A collection of various scripts to automate tasks with the Zabbix API. My main goal is to create a set of simple utilities that can be reused in shell scripts without using a lot of curl voodoo.
-
-All of these tools can be invoked with `-h/--help` to get help.
 
 ### API tools:
 - `zapi.py` -		Interactive Zabbix API client.
